@@ -1,0 +1,34 @@
+:root{--ink:#1d232b;--muted:#5a6573;--line:#e3e7ec;--bg:#fafbfc;--accent:#d9480f;--accent2:#1c5d99;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+.wrap{max-width:780px;margin:0 auto;padding:0 20px}
+a{color:var(--accent2)}
+header.top{background:#fff;border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;min-height:60px;flex-wrap:wrap;gap:8px}
+.logo{font-size:21px;text-decoration:none;color:var(--ink);letter-spacing:-.3px}
+.logo b{color:var(--accent)}
+nav a{margin-left:18px;text-decoration:none;color:var(--muted);font-size:15px}
+main{padding:28px 20px 48px}
+h1{font-size:34px;line-height:1.2;margin:.3em 0 .4em;letter-spacing:-.5px}
+h2{font-size:25px;margin:1.8em 0 .5em;padding-top:.4em;border-top:1px solid var(--line)}
+h3{font-size:20px;margin:1.3em 0 .3em}
+.meta{color:var(--muted);font-size:14px}
+.disc{font-size:13px;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 12px}
+.lead{font-size:19px;color:#333}
+table{border-collapse:collapse;width:100%;font-size:15px;background:#fff;margin:12px 0}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#f1f3f6}
+.pick{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:18px 0}
+.pick h3{margin-top:0}
+.pick .best{display:inline-block;background:#fff1e8;color:var(--accent);font-weight:600;font-size:13px;border-radius:20px;padding:2px 10px;margin-bottom:6px}
+.pick ul{margin:6px 0 10px 20px;padding:0}
+a.amz{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;border-radius:8px;padding:8px 16px;font-size:15px}
+a.amz:hover{filter:brightness(.92)}
+.note{background:#eef5fb;border-left:4px solid var(--accent2);padding:10px 14px;border-radius:4px;font-size:15px}
+ul.guides{list-style:none;padding:0}
+ul.guides li{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:12px 0}
+ul.guides li a{font-weight:600;font-size:19px;text-decoration:none}
+ul.guides li p{margin:4px 0 0;color:var(--muted);font-size:15px}
+.check li{margin:4px 0}
+footer{border-top:1px solid var(--line);background:#fff;color:var(--muted);font-size:13px;padding:18px 0}
+@media(max-width:560px){h1{font-size:27px}body{font-size:16px}nav a{margin-left:12px}}
